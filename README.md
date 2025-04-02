@@ -47,3 +47,41 @@ docker run -d --name webserver -p 8080:80 nginx_costom
 docker ps ; curl 127.0.0.1:8080
 
 ![image](https://github.com/user-attachments/assets/bbd5b852-c07d-46cd-89d1-826177c14ed1)
+
+Подключаемся к к Docker Hub
+
+![image](https://github.com/user-attachments/assets/29e7555c-4fdc-405c-93c9-8a225e0246bc)
+
+Навеси tag на образ:
+
+docker tag nginx_costom spbsupprt/nginx_costom:latest
+
+Выполним загрузку Docker-образа на Docker Hub:
+
+docker push spbsupprt/nginx_costom:latest
+
+![image](https://github.com/user-attachments/assets/2efe1154-059a-4dea-8a2e-80895ad87187)
+
+
+стопапаем , удаляем, проверяем наличие :
+
+docker ps; docker stop 4c5 ; docker rmi -f 580 1ff : docker images
+
+
+![image](https://github.com/user-attachments/assets/270e0475-0552-4389-a7d8-9b5616bd83c8)
+
+
+Скачиваем обратно и запускаем:
+
+docker pull spbsupprt/nginx_costom ; docker run -d --name webserv -p 8080:80 spbsupprt/nginx_costom
+
+Финальная проверка:
+
+curl 127.0.0.1:8080
+
+
+![image](https://github.com/user-attachments/assets/781b3bab-9ddb-4ced-a785-45c93030bfcd)
+
+
+
+
