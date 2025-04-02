@@ -26,12 +26,13 @@ mkdir /nginx_costom ; cd /nginx_costom
 
 Создадим Dockerfile и index.html
 
+'''
 
 echo 'FROM nginx:alpine
 COPY ./index.html /usr/share/nginx/html/index.html' > Dockerfile ;
 echo '<h1><center>Hello Otus!</center></h1>' > index.html
 
-
+'''
 
 Создаем контейнер:
 
