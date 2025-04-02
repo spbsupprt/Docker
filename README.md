@@ -75,6 +75,10 @@ docker ps; docker stop 4c5 ; docker rmi -f 580 1ff : docker images
 ![image](https://github.com/user-attachments/assets/270e0475-0552-4389-a7d8-9b5616bd83c8)
 
 
+![image](https://github.com/user-attachments/assets/cb3e640c-6bee-4c71-87af-04e0e3d83a91)
+
+
+
 Скачиваем обратно и запускаем:
 
 docker pull spbsupprt/nginx_costom ; docker run -d --name webserv -p 8080:80 spbsupprt/nginx_costom
