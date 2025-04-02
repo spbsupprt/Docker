@@ -66,6 +66,9 @@ docker push spbsupprt/nginx_costom:latest
 
 ![image](https://github.com/user-attachments/assets/2efe1154-059a-4dea-8a2e-80895ad87187)
 
+![image](https://github.com/user-attachments/assets/ddaf3ece-f302-4e7c-ad68-0e05ee3245e4)
+
+
 
 стопапаем , удаляем, проверяем наличие :
 
@@ -73,10 +76,6 @@ docker ps; docker stop 4c5 ; docker rmi -f 580 1ff : docker images
 
 
 ![image](https://github.com/user-attachments/assets/270e0475-0552-4389-a7d8-9b5616bd83c8)
-
-
-![image](https://github.com/user-attachments/assets/cb3e640c-6bee-4c71-87af-04e0e3d83a91)
-
 
 
 Скачиваем обратно и запускаем:
